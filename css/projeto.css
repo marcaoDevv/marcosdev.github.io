@@ -1,0 +1,44 @@
+.projeto{
+    background: #141414;
+    color: #ffffff;
+}
+
+.projeto-container{
+    max-width: 1200px;
+    padding: 0 20px 120px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2.1fr;
+    gap: 100px;
+    position: relative;
+}
+
+.projeto .subtitulo{
+    color: #000000;
+    max-width: 5ch;
+}
+
+.projeto-texto{
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 40ch;
+    margin-bottom: 60px;
+    color: #a3a3a3;
+}
+
+.projeto-lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projeto-nome::before{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: #2BA34D;
+    position: absolute;
+    left: -24px;
+}
+

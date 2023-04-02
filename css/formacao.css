@@ -5,25 +5,13 @@
 
 .formacao-container {
     max-width: 1200px;
-    padding: 120px 20px;
+    padding: 120px 20px 0 0;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 100px;
     position: relative;
 }
-
-.formacao-container::after {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 100px;
-    background: url("../projeto-pessoal-arquivos/img/detalhe.svg") no-repeat center;
-    position: absolute;
-    bottom: -50px;
-    left: 20px;
-}
-
 
 .formacao .subtitulo{
     color: #000000;
